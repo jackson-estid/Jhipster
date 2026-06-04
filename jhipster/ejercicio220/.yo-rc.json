@@ -1,0 +1,31 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "ejemplo04",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientTheme": "cyborg",
+    "clientThemeVariant": "primary",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableTranslation": false,
+    "entities": ["Tabla"],
+    "jhiPrefix": "project",
+    "jhipsterVersion": "9.1.0",
+    "jwtSecretKey": "Mjk2Y2I0NDc2N2ZlMmZhNTRjYmQyYTFhMmJjZDkwZTA5MWIyZGZiNDkzZGIyZjhhYjczM2E5NjJlZmRmM2IxY2I3ZTk0ZjQ2MDhlYjk5N2I3MTJhNjM2MTExNGViZTc0OGQ2NWNjMTVmMzQxNDNjZGU2OWQ4ODk0MGYzNTlkZDk=",
+    "languages": ["es"],
+    "lastLiquibaseTimestamp": 1780534225000,
+    "monorepository": true,
+    "nativeLanguage": "es",
+    "packageName": "com.mycompany.ejemplo04",
+    "prodDatabaseType": "mongodb",
+    "reactive": false,
+    "searchEngine": false,
+    "serverPort": "8080",
+    "skipCommitHook": true,
+    "testFrameworks": ["cucumber"],
+    "websocket": false
+  }
+}

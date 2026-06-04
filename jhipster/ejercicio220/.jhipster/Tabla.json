@@ -1,0 +1,80 @@
+{
+  "annotations": {
+    "changelogDate": "20260604005025"
+  },
+  "applications": ["ejemplo04"],
+  "fields": [
+    {
+      "fieldName": "campo01",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "campo02",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "campo03",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "campo04",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "campo05",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "campo06",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "campo07",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "campo08",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "campo09",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "campo10",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "campo11",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "campo12",
+      "fieldType": "LocalTime"
+    },
+    {
+      "fieldName": "campo13",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "campo14",
+      "fieldType": "Blob"
+    },
+    {
+      "fieldName": "campo15",
+      "fieldType": "AnyBlob"
+    },
+    {
+      "fieldName": "campo16",
+      "fieldType": "ImageBlob"
+    },
+    {
+      "fieldName": "campo17",
+      "fieldType": "TextBlob"
+    }
+  ],
+  "name": "Tabla",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

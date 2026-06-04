@@ -1,0 +1,51 @@
+application {
+    config {
+        baseName ejemplo04
+        applicationType monolith
+        packageName com.mycompany.ejemplo04
+        authenticationType jwt
+        databaseType mongodb
+        devDatabaseType mongodb
+        prodDatabaseType mongodb
+        cacheProvider no
+        buildTool maven
+        clientFramework react
+        enableTranslation false
+        nativeLanguage es
+        languages [es]
+        websocket false
+        testFrameworks [cucumber]
+        //entitySuffix false
+        jhiPrefix project
+        reactive false
+        serverPort 8080
+        searchEngine false
+        clientTheme cyborg
+        clientThemeVariant primary
+    }
+    entities *
+}
+
+entity Tabla {
+    campo01 String
+    campo02 Integer
+    campo03 Long
+    campo04 BigDecimal
+    campo05 Float
+    campo06 Double
+    campo07 Boolean
+    campo08 LocalDate
+    campo09 ZonedDateTime
+    campo10 Instant
+    campo11 Duration
+    campo12 LocalTime
+    campo13 UUID
+    campo14 Blob
+    campo15 AnyBlob
+    campo16 ImageBlob
+    campo17 TextBlob
+}
+
+service * with serviceImpl
+//paginate * with pagination
+//search * with elasticsearch
