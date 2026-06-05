@@ -38,8 +38,7 @@ module.exports = async options =>
               loader: 'postcss-loader',
             },
             {
-              loader: 'sass-loader',
-              options: { implementation: sass },
+              loader: 'sass-loader'
             },
           ],
         },
